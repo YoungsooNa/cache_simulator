@@ -2,17 +2,28 @@
 //
 
 #include <iostream>
+#include "architecture.h"
+
+using namespace std;
 
 int main()
 {
 	// argument parsing
-	int sets = 1;
-	int blocks = 1;
-	int words = 1;
+	int set_n = 2;
+	int block_n = 8;
+	int word_n = 2;
+
+	int log2_sets = 1;
+	int log2_blocs = 3;
+	int log2_words = 1;
+
+	string test_address = "0xABCDEFF0";
+
+	int tag = (32 - (set_n + word_n + 2));
 
 	// create memory architecture
-
-
+	Memory simulator = Memory(set_n, block_n, word_n);
+	simulator.acess(test_address);
 	// read input
 
 	// simulating

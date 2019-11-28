@@ -18,5 +18,13 @@
     <ClCompile Include="cache_simulator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="architecture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="architecture.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

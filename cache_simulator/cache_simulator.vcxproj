@@ -151,7 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="architecture.cpp" />
     <ClCompile Include="cache_simulator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="architecture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
